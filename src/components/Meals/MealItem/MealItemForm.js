@@ -3,7 +3,7 @@ import Input from '../../UI/Input';
 import classes from './MealItemForm.module.css'
 
 const MealItemForm=(props)=>{
-    const amountInputRef= useRef();
+   const amountInputRef= useRef();
    const submitHandler=(event)=>{
     event.preventDefault();
     const enteredAmount=amountInputRef.current.value;
